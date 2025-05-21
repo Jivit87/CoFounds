@@ -11,7 +11,7 @@ const Companies = () => {
   return (
     <div className="flex flex-col justify-center items-center px-4 sm:px-6 lg:px-0">
       <div className="mt-8 sm:mt-12 lg:mt-16 max-w-screen-lg items-center text-center w-full">
-        <div className="text-muted-foreground text-[#58585C] font-bold text-lg sm:text-xl lg:text-2xl mb-6 sm:mb-7 lg:mb-8">
+        <div className="text-muted-foreground text-[#6C6C6C] font-bold text-lg sm:text-xl lg:text-2xl mb-6 sm:mb-7 lg:mb-8">
           Companies that hired from us
         </div>
 

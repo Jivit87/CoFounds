@@ -42,7 +42,7 @@ const Hero = () => {
         </motion.div>
 
         <div className="flex flex-col items-center justify-center text-center max-w-[702px] mx-auto">
-          <div className="flex flex-col items-center justify-center text-center mb-[21px] mt-[80px] sm:mt-[120px] lg:mt-[150px] max-w-[702px]">
+          <div className="flex flex-col items-center justify-center text-center mb-[21px] mt-[80px] sm:mt-[120px] lg:mt-[100px] max-w-[702px]">
             <motion.div
               className="w-[200px] sm:w-[230px] lg:w-[250px] h-[30px] mb-4 bg-[#4f4f5445] rounded-full border border-[#3434ff33] shadow-[0px_4px_200px_#3434ff] flex items-center justify-center"
               initial={{ y: -30, opacity: 0 }}
