@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 import star from "../assets/Star.svg";
 import broken from "../assets/broken.svg";
 import Companies from "./Companies";
