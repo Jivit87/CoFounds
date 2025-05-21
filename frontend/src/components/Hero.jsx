@@ -134,7 +134,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center mb-[40px] w-full px-4 sm:px-0"
+            className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center mb-[10px] w-full px-4 sm:px-0"
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.3 }}
@@ -168,9 +168,8 @@ const Hero = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.5 }}
-        >
-          <Companies />
-        </motion.div>
+        ></motion.div>
+        <Companies />
 
         <motion.div
           className="flex justify-center mb-[40px] sm:mb-[50px] lg:mb-[60px] mt-12 sm:mt-16 lg:mt-20"
